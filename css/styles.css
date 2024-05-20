@@ -548,6 +548,7 @@ img {
 }
 .footer-div {
   display: flex;
+  flex-direction: row;
   align-items: baseline;
   margin-right: 120px;
 }
@@ -566,11 +567,11 @@ img {
 .footer-social {
   width: 40px;
   height: 40px;
+  display: flex;
 }
 .icon-footer {
   color: #4d5ae5;
   border-radius: z wartością 50%;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -579,4 +580,10 @@ img {
 }
 .icon-footer:focus {
   color: #31d0aa;
+}
+.container-second {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
 }
