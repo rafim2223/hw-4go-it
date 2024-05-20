@@ -36,6 +36,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 .body {
   font-family: "Roboto", sans-serif;
@@ -326,7 +327,6 @@ img {
   display: flex;
   gap: 40px;
   list-style-type: none;
-  position: relative;
 }
 .menu-second {
   display: flex;
