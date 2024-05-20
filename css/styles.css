@@ -497,23 +497,8 @@ img {
 }
 .social-icons {
   display: flex;
-  justify-content: center;
-  gap: 24px;
 }
-.item-social-icons {
-  width: 40px;
-  height: 40;
-}
-.link-icon {
-  height: 100%;
-  width: 100%;
-  background-color: #4d5ae5;
-  border-radius: 50%;
-  display: flex;
 
-  align-items: center;
-  justify-content: center;
-}
 .link-icon:hover {
   background-color: #404bbf;
 }
@@ -524,8 +509,23 @@ img {
   width: 16;
   height: 16;
   fill: #f4f4fd;
+  border-radius: 50%;
 }
 .list-social-icons {
   display: flex;
   list-style-type: none;
+  border-radius: z wartością 50%;
+  justify-content: center;
+  gap: 24px;
+  width: 16;
+  height: 16;
+}
+.link-icon {
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item-social-icons {
 }
