@@ -374,6 +374,7 @@ img {
 .item {
   padding: 24px 0;
   gap: 40px;
+  width: 100%;
 }
 
 .div-first {
@@ -476,4 +477,17 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.icons-first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  border-style: 1px solid #8e8f99;
+}
+.svg {
+  width: 64;
+  height: 64;
 }
