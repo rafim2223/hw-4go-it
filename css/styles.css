@@ -135,6 +135,7 @@ img {
   letter-spacing: 0.04em;
   color: #fff;
   padding: 188px 0;
+  background-image: url(/images/hero-background.png);
 }
 .section-second {
   font-weight: 500;
