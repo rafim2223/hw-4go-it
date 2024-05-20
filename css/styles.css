@@ -36,7 +36,6 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
 }
 .body {
   font-family: "Roboto", sans-serif;
@@ -190,6 +189,19 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  position: relative;
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link::after {
+  content: normal;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 .link-second {
   font-weight: 500;
@@ -200,6 +212,7 @@ img {
   text-decoration: none;
   text-transform: lowercase;
   font-weight: 400;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link:hover {
   color: #404bbf;
@@ -346,7 +359,6 @@ img {
   list-style-type: none;
   align-items: center;
   margin-left: 272px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container {
   width: 1158px;
@@ -362,16 +374,6 @@ img {
 .item {
   padding: 24px 0;
   gap: 40px;
-}
-.header-top-line::after {
-  content: normal;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
 }
 
 .div-first {
