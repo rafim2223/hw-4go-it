@@ -525,3 +525,7 @@ img {
   height: 16;
   fill: #f4f4fd;
 }
+.list-social-icons {
+  display: flex;
+  list-style-type: none;
+}
