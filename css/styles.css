@@ -495,14 +495,10 @@ img {
   width: 64;
   height: 64;
 }
-.social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
+
 .item-social-icons {
   width: 40px;
-  height: 40;
+  height: 40px;
 }
 .link-icon {
   height: 100%;
@@ -525,7 +521,10 @@ img {
   height: 16;
   fill: #f4f4fd;
 }
-.list-social-icons {
+.social-icons {
   display: flex;
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
