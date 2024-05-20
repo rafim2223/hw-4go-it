@@ -34,8 +34,8 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 .body {
   font-family: "Roboto", sans-serif;
