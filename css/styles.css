@@ -365,6 +365,9 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 }
+.container:hover {
+  box-shadow: #2e2f42;
+}
 .div-header .link {
   display: block;
   text-decoration: none;
@@ -491,11 +494,6 @@ img {
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
 }
-.svg {
-  width: 64;
-  height: 64;
-}
-
 .item-social-icons {
   width: 40px;
   height: 40px;
@@ -528,3 +526,4 @@ img {
   justify-content: center;
   gap: 24px;
 }
+
