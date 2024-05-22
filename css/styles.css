@@ -616,6 +616,7 @@ img {
   padding: 0 15px;
   margin: 0 auto;
   display: flex;
+  margin-right: 120px;
 }
 .link-icon-second {
   height: 100%;
