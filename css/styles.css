@@ -204,6 +204,9 @@ img {
   border-radius: 2px;
   color: #404bbf;
 }
+.link-activ {
+  color: #404bbf;
+}
 .link-second {
   font-weight: 500;
   font-size: 16px;
