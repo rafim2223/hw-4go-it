@@ -534,7 +534,6 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-top: 8px;
 }
 .div-image-section {
   overflow: hidden;
@@ -594,12 +593,7 @@ img {
   height: 40px;
   display: flex;
 }
-.footer-social:hover {
-  background-color: #31d0aa;
-}
-.footer-social:fovus {
-  background-color: #31d0aa;
-}
+
 .icon-footer {
   color: #4d5ae5;
   border-radius: 50%;
