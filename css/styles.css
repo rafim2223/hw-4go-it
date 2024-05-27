@@ -342,6 +342,8 @@ img {
   line-height: 1.5;
   max-width: 264px;
   font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: none;
 }
 .section-third-p {
   font-size: 16px;
@@ -582,7 +584,6 @@ img {
 .footer-div-logo {
   flex-direction: row;
   align-items: baseline;
-  left: 156px;
 }
 .footer-paragraph {
   font-weight: 500;
