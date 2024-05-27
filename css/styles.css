@@ -180,7 +180,7 @@ img {
   background: #f4f4fd;
   border-style: solid;
   border-color: #e7e9fc;
-  text-align: center;
+
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -189,7 +189,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404bbf;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 24px 0;
@@ -276,6 +275,19 @@ img {
   font-weight: 400;
 }
 .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 24px 0;
+}
+.logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -570,6 +582,7 @@ img {
 .footer-div-logo {
   flex-direction: row;
   align-items: baseline;
+  left: 156px;
 }
 .footer-paragraph {
   font-weight: 500;
@@ -628,4 +641,7 @@ img {
 }
 .link-icon-second:focus {
   background-color: #31d0aa;
+}
+.div-social-media {
+  margin-left: 120px;
 }
